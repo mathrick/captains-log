@@ -308,6 +308,27 @@ article {
     float: left;
     width: 70%;
 }
+    article p 
+    {
+        text-align: justify;
+    }
+    
+    article .anchor
+    {
+        width: 3em;
+        margin-left: -3em;
+    }
+    
+    article .anchor:before:hover
+    {
+         display:inline-block;
+         text-align:right;
+         position:relative;
+         left:-3px;
+         width:0;
+         content: "->";
+    }
+
 
 aside {
     float: right;
