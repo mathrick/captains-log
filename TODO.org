@@ -1,0 +1,18 @@
+
+* CSS
+* Models
+*** Items
+***** Description
+***** Pay link(s)
+******* URL
+******* Price
+******* Preference (fx. affiliate)
+******* Author(s)
+*** Users
+***** Items
+******* Downloaded
+********* Wish to pay
+********* Paid
+********* Don't want to pay
+*** Authors
+***** Donation links
