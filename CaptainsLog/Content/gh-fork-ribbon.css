@@ -32,6 +32,8 @@
   font-size: 13px;
   font-weight: 700;
   color: white;
+  /* nullify site-wide style */
+  background-color: transparent;
 
   /* Set the text properties */
   text-decoration: none;
