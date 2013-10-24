@@ -6,10 +6,18 @@
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
+        <!--[if IE]>
+        @Styles.Render("~/Content/ie-css")
+        <![endif]-->
         @Scripts.Render("~/bundles/modernizr")
     </head>
     <body>
         <header>
+            <div class="github-fork-ribbon-wrapper right">
+                <div class="github-fork-ribbon">
+                    <a href="https://github.com/mathrick/captains-log">Visit me on GitHub</a>
+                </div>
+            </div>
             <div class="content-wrapper">
                 <div class="float-left">
                     <p class="site-title">@Html.ActionLink("Captain's Log", "Index", "Home")</p>
@@ -37,7 +45,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                    <p>Captain's Log <a href="https://github.com/mathrick/captains-log">GitHub Page</a></p>
                 </div>
             </div>
         </footer>

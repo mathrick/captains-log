@@ -23,7 +23,13 @@ namespace CaptainsLog
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/site.css",
+                "~/Content/gh-fork-ribbon.css"));
+            bundles.Add(new StyleBundle("~/Content/ie-css").Include(
+                            "~/Content/gh-fork-ribbon.ie.css"
+                            ));
+
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
