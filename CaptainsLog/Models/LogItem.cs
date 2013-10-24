@@ -20,6 +20,6 @@ namespace CaptainsLog.Models
 
     public class LogItemDBContext : DbContext
     {
-        DbSet<LogItem> items { get; set; }
+        public DbSet<LogItem> items { get; set; }
     }
 }
