@@ -10,5 +10,6 @@ namespace CaptainsLog.Models
     /// </summary>
     public class ItemLink
     {
+        public int id { get; set; }
     }
 }
